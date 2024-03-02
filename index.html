@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/diego (1).png">
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">   
+</body>
+    <!--header-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="photos/polar.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>  
+            </nav>
+            <div class="row">
+                <div class="header-col-1">
+                    <div class="header-text">
+                        <h1> Hi, I'm <span>Diego</span><br> Insane Pro-Master Child</h1>
+                        <p><span> Floripa, Florianopolis</span></p>
+                        <div class="social-icons">
+                            <a href="https://www.youtube.com/@MrBeast" target="_blank"><i class= "fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/mrbeast/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                            <a href="https://github.com/dirog-sys" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                            <a href="https://www.tiktok.com/@mrbeast?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-col-2">
+                    <img src="photos/diego (1).png" alt="diego da silva">
+                </div>
+            </div>
+        </div>
+    </div>
+<!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photos/real-madrid-fly-emirates-aad68rt4zsbj59r7.jpg" alt="profile pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a front-end web developer who has a love for coding. I started coding at just 13 years old. I love the Brazil National Squad and the Real Madrid Futbol Squad. In my opinion the Tampa Bay Buccaneers are the best NFL team. That is a little bit about me personal life and my favorite sports teams!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onClick="opentab('experience')">Experience</p>
+                        <p class="tab-links " onClick="opentab('education')">Education</p>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Develpoment</span><br> Front End Website Development</li>
+                            <li><span>App Develpoment</span><br> Building IOS Apps (SWIFT)</li>
+                            <li><span>UI/UX</span><br> Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019-2020</span><br> Website Development Internship</li>
+                            <li><span>2020-2021</span><br> IOS Apps Camp</li>App Interfaces</li>
+                            <li><span>2021-Current</span><br> Designing Web/App Program</li>                
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br> Computer Keyboarding</li>
+                            <li><span>2022</span><br> Computer Apps</li>
+                            <li><span>2023-Current</span><br></li> BCT</li>
+                        <ul>
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-handshake"></i>
+                    <h2> Join Your Team</h2>
+                    <p>We are thrilled to welcome our newest team member, a talented front-end web developer, to elevate our digital presence. With a keen eye for design and a mastery of cutting-edge technologies, they bring a fresh perspective to our projects. Their robust portfolio showcases a seamless blend of creativity and functionality, highlighting their ability to craft engaging user experiences. We're confident that their skills will contribute significantly to our team's success in delivering visually stunning and user-friendly websites.</p>
+                    <a href="#contact">Contact Me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Create a Website</h2>
+                    <p>A front-end web developer is like a digital architect, shaping the appearance and user experience of a website. They use specialized coding languages like HTML and CSS to construct various elements such as buttons, images, and text, ensuring a cohesive and visually pleasing design. Their role extends beyond aesthetics, as they focus on creating an organized layout that enhances user navigation. When you interact with a website by clicking buttons or scrolling, it's the skillful work of a front-end web developer that brings about these seamless and user-friendly actions.</p>
+                    <a href="#contact">Contact Me</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-clipboard"></i>
+                    <h2> Project Assistance</h2>
+                    <p>A front-end web developer is like a digital artist who creates the pretty and interactive parts of a website. They use their coding magic to make buttons clickable, pictures show up, and text look just right. When you visit a website and it looks awesome, thank a front-end developer for making it user-friendly and cool. They turn ideas into web pages that everyone can enjoy!</p>
+                    <a href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Portfolio</h1>
+            <div class="portfolio-list">
+                <div class="portfolio-item">
+                    <img src="photos/project4.png" alt="work1">
+                    <div class="layer">
+                        <h3>SnapFinder</h3>
+                        <a href="https://dirog-sys.github.io/SnapFinder/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/project3.png" alt="work1">
+                    <div class="layer">
+                        <h3>Calculator</h3>  
+                        <a href="https://dirog-sys.github.io/calcultor/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/project6.png" alt="work1">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <a href="https://dirog-sys.github.io/weatherr/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/1.png" alt="work1">
+                    <div class="layer">
+                        <h3>Timeline of the Tampa Bay Buccaneers</h3>  
+                        <a href="https://dirog-sys.github.io/timeline/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/bucs.png" alt="work1">
+                    <div class="layer">
+                        <h3>Tampa Bay Buccaneers Fanpage</h3>  
+                        <a href="https://dirog-sys.github.io/bucs/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/qrcode.png" alt="work1">
+                    <div class="layer">
+                        <h3>Qr Code Generator</h3>  
+                        <a href="https://dirog-sys.github.io/URL/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/Flappy_Bird_icon.png" alt="work1">
+                    <div class="layer">
+                        <h3>Flappy Bird</h3>
+                        <a href="https://dirog-sys.github.io/flappy/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="photos/Untitled design.png" alt="work1">
+                    <div class="layer">
+                        <h3>Timeline of the History of Apple</h3>  
+                        <a href="https://dirog-sys.github.io/apple/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://r.mtdv.me/wRflOg44mp" target="_blank" class="btn"> See Portfolio</a>  
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ddasilva28@keswickchristian.org</p>
+                    <p><i class="fa-solid fa-square-phone"></i> (123) 456-7890</p>
+                    <div class="social-icons">
+                        <a href="https://www.youtube.com/@MrBeast" target="_blank"><i class= "fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/mrbeast/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                        <a href="https://github.com/dirog-sys" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.tiktok.com/@mrbeast?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i></i></a>
+                    </div>
+                    <a href="#" download class="btn btn2"> Download Resume</a>  
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="">
+                        <input type="text" name="Name" id="name" placeholder="Your Name" required>
+                        <input type="text" name="Email" id="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Pro Master Painting Services INC &trade;</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/b87b38c891.js" crossorigin="anonymous"></script>
+</body>
+</html>
